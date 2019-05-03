@@ -1,0 +1,27 @@
+@startuml
+title 基于GitHub的实验管理平台--《学生列表》用例的顺序图
+actor Administrator
+actor Teacher
+actor Student
+
+
+Student --> Student_course:学生学号信息
+Student_course -> Classes:获取班级号
+teacher -> Classes: 获取班级号
+Classes -> Student_course:获取本班学生ID列表
+Student_course -> Users:获取用户（学生）姓名列表
+
+==学生的学生列表，可查看同班同学的实验成绩==
+Users --> Student:返回学生列表
+Student -> Student_course:查看本班学生的实验成绩
+
+==老师的学生列表，可查看和评定成绩==
+Users --> Teacher:返回学生列表
+Teacher -> Student_course:对学生的操作：查看及评定成绩
+group 管理员的学生列表
+Administrator -> Students:获取所有学生列表
+Students -> Users:获取姓名
+Users --> Administrator:返回所有学生姓名列表
+Administrator -> Students:对学生进行批量管理
+end
+@enduml
