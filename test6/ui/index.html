@@ -1,149 +1,967 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <title>Untitled Document</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
-    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
-    <link rel="shortcut icon" href="resources/images/favicon_play.ico" />
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet'>
-
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>index</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/index/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/index/data.js"></script>
     <script type="text/javascript">
-        if (location.href.toString().indexOf('file://localhost/') == 0) {
-            location.href = location.href.toString().replace('file://localhost/', 'file:///');
-        }
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
     </script>
+  </head>
+  <body>
+    <div id="base" class="">
 
-    <!--<link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/handoff/styles/handoff.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/handoff/styles/codemirror.css" />-->
-</head>
-<body scroll="no" class="hashover" style="overflow: hidden;">
-    <div id="topPanel">
-        <div id="interfaceControlFrame">
-            <div id="interfaceControlFrameLeft">
-                <div id="interfaceControlFrameMinimizeContainer">
-                    <a title="Collapse" id="interfaceControlFrameMinimizeButton">
-                        <div id="minimizeArrow" class="minimizeButtonHover minimizeIcon"></div>
-                        <div id="minimizeX" class="minimizeButton minimizeIcon"></div>
-                    </a>
-                </div>
-                <div id="interfaceControlFrameCloseContainer">
-                    <a title="Close" id="interfaceControlFrameCloseButton">CLOSE</a>
-                </div>
+      <!-- Unnamed (文本框) -->
+      <div id="u494" class="ax_default text_field">
+        <div id="u494_div" class=""></div>
+        <input id="u494_input" type="text" value="系统首页" class="u494_input"/>
+      </div>
 
-                <div id="sitemapControlFrameContainer" title="Project Pages">
-                    <div id="projectControlFrameHeaderContainer">
-                        <ul id="projectControlFrameHeader"></ul>
-                    </div>
-                    
-                    <div id="interfacePageNameContainer">
-                        <div id="interfacePageNameButton" class='pageNameHeader'>
-                            &nbsp;
-                        </div>
-                    </div>
-                </div>
+      <!-- Unnamed (文本框) -->
+      <div id="u495" class="ax_default text_field">
+        <div id="u495_div" class=""></div>
+        <input id="u495_input" type="text" value="本界面设计是由Axure RP 9完成的。" class="u495_input"/>
+      </div>
 
-
-                <div id="interfaceAdaptiveViewsContainer" title="Adaptive Views">
-                    <div id="interfaceAdaptiveViewsIconButton">&nbsp;</div>
-                    <div id="interfaceAdaptiveViewsButton" class='adaptiveViewHeader'>
-                        &nbsp;
-                    </div>
-                    <div id="adaptiveViewsDropdown" class="caret"></div>
-                </div>
-            </div>
-            
-            <div id="interfaceControlFrameContainer">
-                <div id="handoffControlFrameHeaderContainer">
-                    <ul id="handoffControlFrameHeader"></ul>
-                </div>
-                <div id="interfaceControlFrameLogoContainer">
-                    <div id="previewNotice">
-                        Local Preview
-                    </div>
-                </div>
-            </div>
-
-            <div id="interfaceControlFrameRight">
-                <div id="publishContainer">
-                    <a id="publishButton">Share Prototype</a>
-                </div>
-                
-                <div id="inspectControlFrameHeaderContainer">
-                    <ul id="inspectControlFrameHeader">
-                        <li id="overflowBtn">
-                            <a id="overflowMenuButton" title="View Options"></a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="separatorContainer">
-                    <div class="separator"></div>
-                </div>
-
-                <div id="overflowMadeWith"><a href="https://www.axure.com" id="axureLogo" target="_blank"></a></div>
-
-            </div>
-
+      <!-- Unnamed (矩形) -->
+      <div id="u496" class="ax_default box_1">
+        <div id="u496_div" class=""></div>
+        <div id="u496_text" class="text ">
+          <p><span style="text-decoration:underline ;">信息系统分析与设计顶部菜单</span></p>
         </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u497" class="ax_default box_1">
+        <div id="u497_div" class=""></div>
+        <div id="u497_text" class="text ">
+          <p><span style="text-decoration:none;">学期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u498" class="ax_default droplist">
+        <div id="u498_div" class=""></div>
+        <select id="u498_input" class="u498_input">
+          <option class="u498_input_option" value="2016-2017-1">2016-2017-1</option>
+          <option class="u498_input_option" value="2016-2017-2">2016-2017-2</option>
+          <option class="u498_input_option" value="2017-2018-1">2017-2018-1</option>
+          <option class="u498_input_option" value="2017-2018-2">2017-2018-2</option>
+          <option class="u498_input_option" value="2018-2019-1">2018-2019-1</option>
+          <option class="u498_input_option" value="2018-2019-2">2018-2019-2</option>
+          <option class="u498_input_option" selected value="2019-2020-1">2019-2020-1</option>
+          <option class="u498_input_option" value="2019-2020-2">2019-2020-2</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u499" class="ax_default box_1">
+        <div id="u499_div" class=""></div>
+        <div id="u499_text" class="text ">
+          <p><span style="text-decoration:none;">课程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u500" class="ax_default droplist">
+        <div id="u500_div" class=""></div>
+        <select id="u500_input" class="u500_input">
+          <option class="u500_input_option" value="Python">Python</option>
+          <option class="u500_input_option" selected value="J2EE框架技术">J2EE框架技术</option>
+          <option class="u500_input_option" value="Android开发">Android开发</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u501" class="ax_default box_1">
+        <div id="u501_div" class=""></div>
+        <div id="u501_text" class="text ">
+          <p><span style="text-decoration:none;">班级</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u502" class="ax_default droplist">
+        <div id="u502_div" class=""></div>
+        <select id="u502_input" class="u502_input">
+          <option class="u502_input_option" selected value="2016级软工1班">2016级软工1班</option>
+          <option class="u502_input_option" value="2016级软工2班">2016级软工2班</option>
+          <option class="u502_input_option" value="2016级软工3班">2016级软工3班</option>
+          <option class="u502_input_option" value="2016级软工4班">2016级软工4班</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u503" class="ax_default text_field">
+        <div id="u503_div" class=""></div>
+        <input id="u503_input" type="text" value="通过不同的学期和课程进行信息的查询" class="u503_input"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u504" class="ax_default box_1">
+        <img id="u504_img" class="img " src="images/index/u504.svg"/>
+        <div id="u504_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u505" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u506" class="ax_default table_cell">
+          <img id="u506_img" class="img " src="images/index/u506.png"/>
+          <div id="u506_text" class="text ">
+            <p><span style="text-decoration:none;">学期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u507" class="ax_default table_cell">
+          <img id="u507_img" class="img " src="images/index/u507.png"/>
+          <div id="u507_text" class="text ">
+            <p><span style="text-decoration:none;">学号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u508" class="ax_default table_cell">
+          <img id="u508_img" class="img " src="images/index/u508.png"/>
+          <div id="u508_text" class="text ">
+            <p><span style="text-decoration:none;">姓名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u509" class="ax_default table_cell">
+          <img id="u509_img" class="img " src="images/index/u509.png"/>
+          <div id="u509_text" class="text ">
+            <p><span style="text-decoration:none;">班级</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u510" class="ax_default table_cell">
+          <img id="u510_img" class="img " src="images/index/u510.png"/>
+          <div id="u510_text" class="text ">
+            <p><span style="text-decoration:none;">课程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u511" class="ax_default table_cell">
+          <img id="u511_img" class="img " src="images/index/u511.png"/>
+          <div id="u511_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">GitHub</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">用户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u512" class="ax_default table_cell">
+          <img id="u512_img" class="img " src="images/index/u512.png"/>
+          <div id="u512_text" class="text ">
+            <p><span style="text-decoration:none;">修改日期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u513" class="ax_default table_cell">
+          <img id="u513_img" class="img " src="images/index/u506.png"/>
+          <div id="u513_text" class="text ">
+            <p><span style="text-decoration:none;">2019-2020-2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u514" class="ax_default table_cell">
+          <img id="u514_img" class="img " src="images/index/u507.png"/>
+          <div id="u514_text" class="text ">
+            <p><span style="text-decoration:none;">201610414113</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u515" class="ax_default table_cell">
+          <img id="u515_img" class="img " src="images/index/u508.png"/>
+          <div id="u515_text" class="text ">
+            <p><span style="text-decoration:none;">张三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u516" class="ax_default table_cell">
+          <img id="u516_img" class="img " src="images/index/u509.png"/>
+          <div id="u516_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">2016</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">级软工</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">班</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u517" class="ax_default table_cell">
+          <img id="u517_img" class="img " src="images/index/u510.png"/>
+          <div id="u517_text" class="text ">
+            <p><span style="text-decoration:none;">Java</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u518" class="ax_default table_cell">
+          <img id="u518_img" class="img " src="images/index/u511.png"/>
+          <div id="u518_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">GitHub</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u519" class="ax_default table_cell">
+          <img id="u519_img" class="img " src="images/index/u512.png"/>
+          <div id="u519_text" class="text ">
+            <p><span style="text-decoration:none;">2019-05-01 13:48:01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u520" class="ax_default table_cell">
+          <img id="u520_img" class="img " src="images/index/u520.png"/>
+          <div id="u520_text" class="text ">
+            <p><span style="text-decoration:none;">2019-2020-2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u521" class="ax_default table_cell">
+          <img id="u521_img" class="img " src="images/index/u521.png"/>
+          <div id="u521_text" class="text ">
+            <p><span style="text-decoration:none;">201610414113</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u522" class="ax_default table_cell">
+          <img id="u522_img" class="img " src="images/index/u522.png"/>
+          <div id="u522_text" class="text ">
+            <p><span style="text-decoration:none;">李四</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u523" class="ax_default table_cell">
+          <img id="u523_img" class="img " src="images/index/u523.png"/>
+          <div id="u523_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">2016</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">级软工</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">班</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u524" class="ax_default table_cell">
+          <img id="u524_img" class="img " src="images/index/u524.png"/>
+          <div id="u524_text" class="text ">
+            <p><span style="text-decoration:none;">Python</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u525" class="ax_default table_cell">
+          <img id="u525_img" class="img " src="images/index/u525.png"/>
+          <div id="u525_text" class="text ">
+            <p><span style="text-decoration:none;">GitHub用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u526" class="ax_default table_cell">
+          <img id="u526_img" class="img " src="images/index/u526.png"/>
+          <div id="u526_text" class="text ">
+            <p><span style="text-decoration:none;">2019-05-01 13:48:01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u527" class="ax_default table_cell">
+          <img id="u527_img" class="img " src="images/index/u520.png"/>
+          <div id="u527_text" class="text ">
+            <p><span style="text-decoration:none;">2019-2020-2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u528" class="ax_default table_cell">
+          <img id="u528_img" class="img " src="images/index/u521.png"/>
+          <div id="u528_text" class="text ">
+            <p><span style="text-decoration:none;">201610414113</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u529" class="ax_default table_cell">
+          <img id="u529_img" class="img " src="images/index/u522.png"/>
+          <div id="u529_text" class="text ">
+            <p><span style="text-decoration:none;">王五</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u530" class="ax_default table_cell">
+          <img id="u530_img" class="img " src="images/index/u523.png"/>
+          <div id="u530_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">2016</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">级软工</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">班</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u531" class="ax_default table_cell">
+          <img id="u531_img" class="img " src="images/index/u524.png"/>
+          <div id="u531_text" class="text ">
+            <p><span style="text-decoration:none;">Python</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u532" class="ax_default table_cell">
+          <img id="u532_img" class="img " src="images/index/u525.png"/>
+          <div id="u532_text" class="text ">
+            <p><span style="text-decoration:none;">GitHub用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u533" class="ax_default table_cell">
+          <img id="u533_img" class="img " src="images/index/u526.png"/>
+          <div id="u533_text" class="text ">
+            <p><span style="text-decoration:none;">2019-05-01 13:48:01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u534" class="ax_default table_cell">
+          <img id="u534_img" class="img " src="images/index/u520.png"/>
+          <div id="u534_text" class="text ">
+            <p><span style="text-decoration:none;">2019-2020-2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u535" class="ax_default table_cell">
+          <img id="u535_img" class="img " src="images/index/u521.png"/>
+          <div id="u535_text" class="text ">
+            <p><span style="text-decoration:none;">201610414113</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u536" class="ax_default table_cell">
+          <img id="u536_img" class="img " src="images/index/u522.png"/>
+          <div id="u536_text" class="text ">
+            <p><span style="text-decoration:none;">屠鹏</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u537" class="ax_default table_cell">
+          <img id="u537_img" class="img " src="images/index/u523.png"/>
+          <div id="u537_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">2016</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">级软工</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">班</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u538" class="ax_default table_cell">
+          <img id="u538_img" class="img " src="images/index/u524.png"/>
+          <div id="u538_text" class="text ">
+            <p><span style="text-decoration:none;">Java</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u539" class="ax_default table_cell">
+          <img id="u539_img" class="img " src="images/index/u525.png"/>
+          <div id="u539_text" class="text ">
+            <p><span style="text-decoration:none;">tupengbox</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u540" class="ax_default table_cell">
+          <img id="u540_img" class="img " src="images/index/u526.png"/>
+          <div id="u540_text" class="text ">
+            <p><span style="text-decoration:none;">2019-05-01 13:48:01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u541" class="ax_default table_cell">
+          <img id="u541_img" class="img " src="images/index/u541.png"/>
+          <div id="u541_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u542" class="ax_default table_cell">
+          <img id="u542_img" class="img " src="images/index/u542.png"/>
+          <div id="u542_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u543" class="ax_default table_cell">
+          <img id="u543_img" class="img " src="images/index/u543.png"/>
+          <div id="u543_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u544" class="ax_default table_cell">
+          <img id="u544_img" class="img " src="images/index/u544.png"/>
+          <div id="u544_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u545" class="ax_default table_cell">
+          <img id="u545_img" class="img " src="images/index/u545.png"/>
+          <div id="u545_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u546" class="ax_default table_cell">
+          <img id="u546_img" class="img " src="images/index/u546.png"/>
+          <div id="u546_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u547" class="ax_default table_cell">
+          <img id="u547_img" class="img " src="images/index/u547.png"/>
+          <div id="u547_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u548" class="ax_default text_field">
+        <div id="u548_div" class=""></div>
+        <input id="u548_input" type="text" value="学生列表用例" class="u548_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u549" class="ax_default text_field">
+        <div id="u549_div" class=""></div>
+        <input id="u549_input" type="text" value="接口：getStudents" class="u549_input"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u550" class="ax_default box_1">
+        <div id="u550_div" class=""></div>
+        <div id="u550_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u551" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u552" class="ax_default table_cell">
+          <img id="u552_img" class="img " src="images/用户管理/u22.png"/>
+          <div id="u552_text" class="text ">
+            <p><span style="text-decoration:none;">学期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u553" class="ax_default table_cell">
+          <img id="u553_img" class="img " src="images/用户管理/u22.png"/>
+          <div id="u553_text" class="text ">
+            <p><span style="text-decoration:none;">课程</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u554" class="ax_default table_cell">
+          <img id="u554_img" class="img " src="images/选择课程/u314.png"/>
+          <div id="u554_text" class="text ">
+            <p><span style="text-decoration:none;">学号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u555" class="ax_default table_cell">
+          <img id="u555_img" class="img " src="images/index/u555.png"/>
+          <div id="u555_text" class="text ">
+            <p><span style="text-decoration:none;">姓名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u556" class="ax_default table_cell">
+          <img id="u556_img" class="img " src="images/index/u556.png"/>
+          <div id="u556_text" class="text ">
+            <p><span style="text-decoration:none;">班级</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u557" class="ax_default table_cell">
+          <img id="u557_img" class="img " src="images/index/u557.png"/>
+          <div id="u557_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">GitHub</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">用户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u558" class="ax_default table_cell">
+          <img id="u558_img" class="img " src="images/index/u558.png"/>
+          <div id="u558_text" class="text ">
+            <p><span style="text-decoration:none;">修改日期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u559" class="ax_default table_cell">
+          <img id="u559_img" class="img " src="images/查看成绩/u114.png"/>
+          <div id="u559_text" class="text ">
+            <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">实验</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u560" class="ax_default table_cell">
+          <img id="u560_img" class="img " src="images/index/u560.png"/>
+          <div id="u560_text" class="text ">
+            <p><span style="text-decoration:none;">实验....</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u561" class="ax_default table_cell">
+          <img id="u561_img" class="img " src="images/查看成绩/u142.png"/>
+          <div id="u561_text" class="text ">
+            <p><span style="text-decoration:none;">Column 3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u562" class="ax_default table_cell">
+          <img id="u562_img" class="img " src="images/查看成绩/u117.png"/>
+          <div id="u562_text" class="text ">
+            <p><span style="text-decoration:none;">2019-2020-2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u563" class="ax_default table_cell">
+          <img id="u563_img" class="img " src="images/查看成绩/u117.png"/>
+          <div id="u563_text" class="text ">
+            <p><span style="text-decoration:none;">Java</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u564" class="ax_default table_cell">
+          <img id="u564_img" class="img " src="images/index/u564.png"/>
+          <div id="u564_text" class="text ">
+            <p><span style="text-decoration:none;">201610414113</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u565" class="ax_default table_cell">
+          <img id="u565_img" class="img " src="images/index/u565.png"/>
+          <div id="u565_text" class="text ">
+            <p><span style="text-decoration:none;">张三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u566" class="ax_default table_cell">
+          <img id="u566_img" class="img " src="images/index/u566.png"/>
+          <div id="u566_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">2016</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">级软工</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">班</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u567" class="ax_default table_cell">
+          <img id="u567_img" class="img " src="images/index/u567.png"/>
+          <div id="u567_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">GitHub</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u568" class="ax_default table_cell">
+          <img id="u568_img" class="img " src="images/index/u568.png"/>
+          <div id="u568_text" class="text ">
+            <p><span style="text-decoration:none;">2019-05-01 13:48:01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u569" class="ax_default table_cell">
+          <img id="u569_img" class="img " src="images/查看成绩/u121.png"/>
+          <div id="u569_text" class="text ">
+            <p><span style="text-decoration:none;">90</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u570" class="ax_default table_cell">
+          <img id="u570_img" class="img " src="images/index/u570.png"/>
+          <div id="u570_text" class="text ">
+            <p><span style="text-decoration:none;">.....</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u571" class="ax_default table_cell">
+          <img id="u571_img" class="img " src="images/index/u571.png"/>
+          <div id="u571_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u572" class="ax_default table_cell">
+          <img id="u572_img" class="img " src="images/查看成绩/u117.png"/>
+          <div id="u572_text" class="text ">
+            <p><span style="text-decoration:none;">2019-2020-2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u573" class="ax_default table_cell">
+          <img id="u573_img" class="img " src="images/查看成绩/u117.png"/>
+          <div id="u573_text" class="text ">
+            <p><span style="text-decoration:none;">Python</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u574" class="ax_default table_cell">
+          <img id="u574_img" class="img " src="images/index/u564.png"/>
+          <div id="u574_text" class="text ">
+            <p><span style="text-decoration:none;">201610414113</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u575" class="ax_default table_cell">
+          <img id="u575_img" class="img " src="images/index/u565.png"/>
+          <div id="u575_text" class="text ">
+            <p><span style="text-decoration:none;">张三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u576" class="ax_default table_cell">
+          <img id="u576_img" class="img " src="images/index/u566.png"/>
+          <div id="u576_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">2016</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">级软工</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">班</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u577" class="ax_default table_cell">
+          <img id="u577_img" class="img " src="images/index/u567.png"/>
+          <div id="u577_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">GitHub</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u578" class="ax_default table_cell">
+          <img id="u578_img" class="img " src="images/index/u568.png"/>
+          <div id="u578_text" class="text ">
+            <p><span style="text-decoration:none;">2019-05-01 13:48:01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u579" class="ax_default table_cell">
+          <img id="u579_img" class="img " src="images/查看成绩/u121.png"/>
+          <div id="u579_text" class="text ">
+            <p><span style="text-decoration:none;">打分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u580" class="ax_default table_cell">
+          <img id="u580_img" class="img " src="images/index/u570.png"/>
+          <div id="u580_text" class="text ">
+            <p><span style="text-decoration:none;">......</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u581" class="ax_default table_cell">
+          <img id="u581_img" class="img " src="images/index/u571.png"/>
+          <div id="u581_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u582" class="ax_default table_cell">
+          <img id="u582_img" class="img " src="images/查看成绩/u117.png"/>
+          <div id="u582_text" class="text ">
+            <p><span style="text-decoration:none;">2019-2020-2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u583" class="ax_default table_cell">
+          <img id="u583_img" class="img " src="images/查看成绩/u117.png"/>
+          <div id="u583_text" class="text ">
+            <p><span style="text-decoration:none;">Android</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u584" class="ax_default table_cell">
+          <img id="u584_img" class="img " src="images/index/u564.png"/>
+          <div id="u584_text" class="text ">
+            <p><span style="text-decoration:none;">201610414113</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u585" class="ax_default table_cell">
+          <img id="u585_img" class="img " src="images/index/u565.png"/>
+          <div id="u585_text" class="text ">
+            <p><span style="text-decoration:none;">张三</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u586" class="ax_default table_cell">
+          <img id="u586_img" class="img " src="images/index/u566.png"/>
+          <div id="u586_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">2016</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">级软工</span><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">班</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u587" class="ax_default table_cell">
+          <img id="u587_img" class="img " src="images/index/u567.png"/>
+          <div id="u587_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial';text-decoration:none;">GitHub</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';text-decoration:none;">用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u588" class="ax_default table_cell">
+          <img id="u588_img" class="img " src="images/index/u568.png"/>
+          <div id="u588_text" class="text ">
+            <p><span style="text-decoration:none;">2019-05-01 13:48:01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u589" class="ax_default table_cell">
+          <img id="u589_img" class="img " src="images/查看成绩/u121.png"/>
+          <div id="u589_text" class="text ">
+            <p><span style="text-decoration:none;">90</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u590" class="ax_default table_cell">
+          <img id="u590_img" class="img " src="images/index/u570.png"/>
+          <div id="u590_text" class="text ">
+            <p><span style="text-decoration:none;">.....</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u591" class="ax_default table_cell">
+          <img id="u591_img" class="img " src="images/index/u571.png"/>
+          <div id="u591_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u592" class="ax_default table_cell">
+          <img id="u592_img" class="img " src="images/index/u592.png"/>
+          <div id="u592_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u593" class="ax_default table_cell">
+          <img id="u593_img" class="img " src="images/index/u592.png"/>
+          <div id="u593_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u594" class="ax_default table_cell">
+          <img id="u594_img" class="img " src="images/index/u594.png"/>
+          <div id="u594_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u595" class="ax_default table_cell">
+          <img id="u595_img" class="img " src="images/index/u595.png"/>
+          <div id="u595_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u596" class="ax_default table_cell">
+          <img id="u596_img" class="img " src="images/index/u596.png"/>
+          <div id="u596_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u597" class="ax_default table_cell">
+          <img id="u597_img" class="img " src="images/index/u597.png"/>
+          <div id="u597_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u598" class="ax_default table_cell">
+          <img id="u598_img" class="img " src="images/index/u598.png"/>
+          <div id="u598_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u599" class="ax_default table_cell">
+          <img id="u599_img" class="img " src="images/index/u599.png"/>
+          <div id="u599_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u600" class="ax_default table_cell">
+          <img id="u600_img" class="img " src="images/index/u600.png"/>
+          <div id="u600_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u601" class="ax_default table_cell">
+          <img id="u601_img" class="img " src="images/index/u601.png"/>
+          <div id="u601_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u602" class="ax_default text_field">
+        <div id="u602_div" class=""></div>
+        <input id="u602_input" type="text" value="学生或游客登录界面" class="u602_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u603" class="ax_default text_field">
+        <div id="u603_div" class=""></div>
+        <input id="u603_input" type="text" value="老师登录界面" class="u603_input"/>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u604" class="ax_default line">
+        <img id="u604_img" class="img " src="images/index/u604.svg"/>
+        <div id="u604_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u605" class="ax_default text_field">
+        <div id="u605_div" class=""></div>
+        <input id="u605_input" type="text" value="Github超链接" class="u605_input"/>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u606" class="ax_default line">
+        <img id="u606_img" class="img " src="images/index/u606.svg"/>
+        <div id="u606_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u607" class="ax_default line">
+        <img id="u607_img" class="img " src="images/index/u607.svg"/>
+        <div id="u607_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u608" class="ax_default line">
+        <img id="u608_img" class="img " src="images/index/u608.svg"/>
+        <div id="u608_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u609" class="ax_default text_field">
+        <div id="u609_div" class=""></div>
+        <input id="u609_input" type="text" value="跳转到评定成绩页面" class="u609_input"/>
+      </div>
     </div>
-    <div id="popupContainer">
-        <div id='interfaceAdaptiveViewsListContainer'>
-        </div>
-
-        <div id='interfaceScaleListContainer'>
-        </div>
-
-        <div id='accountLoginContainer'>
-        </div>
-
-        <div id='overflowMenuContainer'>
-        </div>
-    </div>
-    <div id="outerContainer">
-        <div id="clippingBounds">
-            <div id="clippingBoundsScrollContainer"></div>
-        </div>
-
-        <div id="mHideSidebar"></div>
-        <div id="lsplitbar" class="splitbar"></div>
-
-        <div id="mainPanel">
-            <div id="mainPanelContainer" style="position: relative; width:100%; height: 100%;">
-                <div id="clipFrameScroll" style="position: relative; width:100%; height: 100%; background-color: #ffffff;">
-                    <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="about:blank" frameborder="0" style="display: block;position:absolute;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-        <div id="rsplitbar" class="splitbar"></div>
-
-    </div>
-
-    <div id="maximizePanelContainer" class="maximizePanelContainer">
-        <div id="maximizePanelOver">
-            <div id="maximizePanel" title="Expand" class="maximizePanelOver">
-                <div id="maximizeButton" class="maximizeButton maximizeIcon"></div>
-            </div>
-        </div>
-    </div>
-
-    <div id="mobileControlFrameContainer"></div>
-
-<!-- 9.0.0.3648 -->
-<script src="resources/scripts/jquery-3.2.1.min.js"></script>
-<script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
-<script src="resources/scripts/axutils.js"></script>
-<script src="resources/scripts/messagecenter.js"></script>
-<script src="resources/scripts/player/axplayer.js"></script>
-<script src="resources/scripts/player/init.js"></script>
-
-
-</body>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
 </html>
